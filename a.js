@@ -10,9 +10,9 @@ function ImageToBase64(img, mime_type) {
     return canvas.toDataURL(mime_type);
 }
 window.addEventListener('load', function() {
-    var img = document.getElementById('texture');
+    /*var img = document.getElementById('texture');
     var b64 = ImageToBase64(img, "image/png");
-    img.src = b64;
+    img.src = b64;*/
     // シーンの初期化 -----------------------------
     const scene = new THREE.Scene();
   
